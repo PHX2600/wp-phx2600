@@ -1,0 +1,72 @@
+/* --------------------- */
+/* -----[ GENERAL ]----- */
+/* --------------------- */
+
+html {
+	font-size: 100%;
+}
+
+body {
+	background: #500000 url(../images/bg-gradient.png) repeat-x top left;
+	color: #333;
+	font-family: sans-serif, Verdana, Tahoma, Sans, Arial, Helvetica;
+	font-size: 1em;
+}
+
+a {
+	color: #900000;
+	outline: none;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #333;
+	text-decoration: underline;
+}
+
+#wrap {
+	margin: 20px auto;
+	width: 760px;
+}
+
+
+/* -------------------- */
+/* -----[ HEADER ]----- */
+/* -------------------- */
+
+#header {
+	background-color: #222;
+	height: 120px;
+}
+
+
+/* ------------------------ */
+/* -----[ NAVIGATION ]----- */
+/* ------------------------ */
+
+#navigation {
+	background-color: #000;
+	height: 25px;
+}
+
+
+/* ------------------ */
+/* -----[ BODY ]----- */
+/* ------------------ */
+
+#body {
+	background-color: #FFF;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+	height: 120px;
+}
+
+
+/* -------------------- */
+/* -----[ FOOTER ]----- */
+/* -------------------- */
+
+#footer {
+	background-color: #222;
+	height: 60px;
+}
