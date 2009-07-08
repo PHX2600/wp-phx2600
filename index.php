@@ -19,16 +19,16 @@
 	$(document).ready(function(){
 		$('.rounded').corner();
 		$('.rounded-top').corner({
-			tl: {radius: 8},
-			tr: {radius: 8},
+			tl: {radius: 10},
+			tr: {radius: 10},
 			bl: false,
 			br: false
 		});
 		$('.rounded-bottom').corner({
 			tl: false,
 			tr: false,
-			bl: {radius: 8},
-			br: {radius: 8}
+			bl: {radius: 10},
+			br: {radius: 10}
 		});
 	});
 	</script>
@@ -38,7 +38,9 @@
 
 <div id="wrap">
 
-	<div id="header" class="rounded-top">Header</div>
+	<div id="header" class="rounded-top">
+		<img src="/images/phx2600-text.png" />
+	</div>
 
 	<div id="navigation">Navigation</div>
 

@@ -11,6 +11,7 @@ body {
 	color: #333;
 	font-family: sans-serif, Verdana, Tahoma, Sans, Arial, Helvetica;
 	font-size: 1em;
+	padding: 20px;
 }
 
 a {
@@ -26,7 +27,9 @@ a:hover {
 
 #wrap {
 	margin: 20px auto;
-	width: 760px;
+	max-width: 960px;
+	min-width: 760px;
+	width: 100%;
 }
 
 
@@ -35,8 +38,8 @@ a:hover {
 /* -------------------- */
 
 #header {
-	background-color: #222;
-	height: 120px;
+	background: #000 url(../images/header-bg.png) repeat-x top left;
+	padding: 20px 20px 15px;
 }
 
 
@@ -45,7 +48,10 @@ a:hover {
 /* ------------------------ */
 
 #navigation {
-	background-color: #000;
+	background: #000 url(../images/nav-bg.jpg) repeat-x top left;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+	color: #FFF;
 	height: 25px;
 }
 
@@ -67,6 +73,6 @@ a:hover {
 /* -------------------- */
 
 #footer {
-	background-color: #222;
+	background: #323232 url(../images/footer-bg.png) repeat-x top left;
 	height: 60px;
 }
