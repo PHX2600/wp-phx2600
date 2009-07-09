@@ -86,7 +86,35 @@ table {
 	border-left: 1px solid #000;
 	border-right: 1px solid #000;
 	color: #FFF;
-	height: 25px;
+	height: 28px;
+}
+
+#navigation ul {
+	float: left;
+	list-style: none;
+	margin: 0 0 1em;
+	padding: 0;
+}
+
+#navigation ul li {
+	display: inline-block;
+	float: left;
+	margin: 0;
+		
+}
+
+#navigation ul li a {
+	border-left: 1px solid #555;
+	border-right: 1px solid #000;
+	color: #FFF;
+	display: inline-block;
+	padding: 4px 10px;
+	text-decoration: none;
+}
+
+#navigation ul li a:hover {
+	background-color: #323232;
+	border-left: 1px solid #323232;
 }
 
 
@@ -110,3 +138,32 @@ table {
 	background: #323232 url(../images/footer-bg.png) repeat-x top left;
 	height: 60px;
 }
+
+
+/* ---------------------------- */
+/* -----[ MISCELLANEOUS ] ----- */
+/* ---------------------------- */
+
+#content div.hr {
+  background-color: #646464;
+  border: 0;
+  height: 1px;
+  margin: 1em 0;
+  width: 100%;
+}
+
+#content div.hr hr {
+  display: none;
+}
+
+/* CLEAR FIX*/
+.clearfix:after {content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;}
+.clearfix {display: inline-block;}
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */

@@ -63,7 +63,16 @@
 
 	</div>
 
-	<div id="navigation">Navigation</div>
+	<div id="navigation">
+		<ul>
+			<li><a href="index.php">Home</a></li>
+			<li><a href="#">Link</a></li>
+			<li><a href="#">Link</a></li>
+			<li><a href="#">Link</a></li>
+			<li><a href="#">Link</a></li>
+			<li><a href="#">Link</a></li>
+		</ul>
+	</div>
 
 	<div id="body">
 		<div id="content">Content</div>
