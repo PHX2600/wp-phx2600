@@ -30,11 +30,11 @@
 			br: {radius: 10}
 		});
 
-		$('#search-table').corner({
-			tl: {radius: 10},
-			tr: {radius: 10},
-			bl: {radius: 10},
-			br: {radius: 10}
+		$('#search').corner({
+			tl: {radius: 4},
+			tr: {radius: 4},
+			bl: {radius: 4},
+			br: {radius: 4}
 		});
 	});
 	</script>
