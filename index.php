@@ -3,8 +3,7 @@
 
 <head>
 	<title>PHX2600 - The Phoenix, Arizona Network of Hackers</title>
-	<link rel="stylesheet" type="text/css" href="/css/reset.css" />
-	<link rel="stylesheet" type="text/css" href="/css/base.css" />
+	<link rel="stylesheet" type="text/css" href="/css/rebase.css" />
 	<link rel="stylesheet" type="text/css" href="/css/style.css" />
 
 	<link rel="shortcut icon" href="/images/icons/folder_explore.png" />
@@ -30,6 +29,13 @@
 			bl: {radius: 10},
 			br: {radius: 10}
 		});
+
+		$('#search-table').corner({
+			tl: {radius: 10},
+			tr: {radius: 10},
+			bl: {radius: 10},
+			br: {radius: 10}
+		});
 	});
 	</script>
 </head>
@@ -39,7 +45,22 @@
 <div id="wrap">
 
 	<div id="header" class="rounded-top">
-		<img src="/images/phx2600-text.png" />
+
+		<div id="logo">
+			<img src="/images/phx2600-text.png" />
+		</div>
+
+		<div id="search">
+			<form method="get" action="/search/go/" id="search-form">
+			<table id="search-table">
+				<tr>
+					<td><input type="text" value="Search" name="search" id="search-box" onfocus="if(this.defaultValue == this.value) this.value = '';" onblur="if(this.value == '') this.value = this.defaultValue;"></input></td>
+					<td><button type="submit" value="" id="search-button">Go</button></td>
+				</tr>
+			</table>
+			</form>
+		</div>
+
 	</div>
 
 	<div id="navigation">Navigation</div>
