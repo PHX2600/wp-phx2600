@@ -51,10 +51,10 @@ table {
 }
 
 #search {
-	background-color: #900000;
+	background-color: #999;
 	float: right;
 	height: auto;
-	margin: 25px 0 0;
+	margin: 20px 0 0;
 }
 
 #search-table {
@@ -64,8 +64,9 @@ table {
 
 #search input {
 	border: 1px solid #121212;
+	font-size: 1.2em;
 	padding: 3px;
-	width: 200px;
+	width: 225px;
 }
 
 #search button {
@@ -73,7 +74,7 @@ table {
 	border: 1px solid #121212;
 	color: #FFF;
 	cursor: pointer;
-	padding: 2px;
+	padding: 6px;
 }
 
 
