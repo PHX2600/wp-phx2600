@@ -21,7 +21,7 @@ a {
 }
 
 a:hover {
-	color: #333;
+	color: #900000;
 	text-decoration: underline;
 }
 
@@ -32,7 +32,7 @@ table {
 
 #wrap {
 	margin: 20px auto;
-	padding: 20px;
+	padding: 10px 20px;
 	width: 960px;
 }
 
@@ -92,7 +92,7 @@ table {
 #navigation ul {
 	float: left;
 	list-style: none;
-	margin: 0 0 1em;
+	margin: 0;
 	padding: 0;
 }
 
@@ -123,10 +123,77 @@ table {
 /* ------------------ */
 
 #body {
-	background-color: #FFF;
+	background: #FFF url(../images/right-nav-bg.gif) repeat-y top right;
 	border-left: 1px solid #000;
 	border-right: 1px solid #000;
-	height: 120px;
+}
+
+
+/* ---[ CONTENT ] --- */
+
+#content {
+	float: left;
+	margin-right: -212px;
+	padding: 10px;
+	width: 728px;
+}
+
+.entry {
+	background: #FFF url(../images/post-gradient.gif) repeat-x top left;
+	border: 1px solid #CCC;
+	font-size: .9em;
+	margin: 0 0 10px;
+	padding: 10px;
+}
+
+.post-title {
+	color: #900000;
+	font-size: 1.3em;
+	margin: 0;
+}
+
+.post-info {
+	color: #707070;
+	font-size: 0.8em;
+	margin: 2px 0 15px;
+}
+
+.post-meta-data {
+	background-color: #DEDEDE;
+	padding: 10px;
+	margin: 1.5em 0 10px;
+}
+
+.post-meta-data .tags {
+	background: transparent url(../images/icons/tag_blue.png) no-repeat left center;
+	font-size: 0.8em;
+	margin: 2px 0 .5em;
+	padding: 0 0 0 20px;
+}
+
+.post-meta-data .category {
+	background: transparent url(../images/icons/application_view_list.png) no-repeat left center;
+	padding: 0 0 5px 20px;
+}
+
+.post-meta-data .edit a {
+	background: transparent url(../images/icons/page_white_edit.png) no-repeat left center;
+	padding: 0 0 0 20px;
+}
+
+.post-meta-data .comments a {
+	background: transparent url(../images/icons/comments.png) no-repeat left center;
+	padding: 0 0 5px 20px;
+}
+
+
+/* ---[ RIGHT NAVIGATION ]--- */
+
+#right-nav {
+	float: right;
+	margin-left: -748px;
+	padding: 10px;
+	width: 190px;
 }
 
 
@@ -145,7 +212,7 @@ table {
 /* ---------------------------- */
 
 #content div.hr {
-  background-color: #646464;
+  background-color: #555;
   border: 0;
   height: 1px;
   margin: 1em 0;

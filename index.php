@@ -30,7 +30,7 @@
 			br: {radius: 10}
 		});
 
-		$('#search').corner({
+		$('.rounded-small').corner({
 			tl: {radius: 4},
 			tr: {radius: 4},
 			bl: {radius: 4},
@@ -50,7 +50,7 @@
 			<img src="/images/phx2600-text.png" />
 		</div>
 
-		<div id="search">
+		<div id="search" class="rounded-small">
 			<form method="get" action="/search/go/" id="search-form">
 			<table id="search-table">
 				<tr>
@@ -74,8 +74,44 @@
 		</ul>
 	</div>
 
-	<div id="body">
-		<div id="content">Content</div>
+	<div id="body" class="clearfix">
+		<div id="content">
+			<div class="entry">
+				<h2 class="post-title">Post Title</h2>
+				<div class="post-info">Posted by, Chris Kankiewicz on May 28th, 2009</div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus diam sed orci bibendum non scelerisque mi facilisis. Nunc ornare mollis accumsan. Nullam nec arcu massa. Pellentesque at augue ligula. Maecenas purus turpis, tempor non faucibus id, consectetur vitae tortor. Phasellus aliquet convallis diam, sed rutrum velit sagittis vitae. Quisque mattis est in elit eleifend congue. Suspendisse in convallis est. Praesent nibh mauris, tempor at tempor a, auctor vitae nisl. Donec felis enim, suscipit nec lobortis non, accumsan vitae odio. Fusce sed nisl a neque dictum dapibus. In non tortor turpis, vel pretium nibh. Nam eget eros dui, ut ultrices neque. In hac habitasse platea dictumst. Vestibulum sit amet lorem eu orci porttitor viverra. Sed eu metus lacus, eget vehicula erat. Morbi eu ante bibendum risus gravida tempor id non tellus. Aliquam risus mauris, consectetur ut porttitor quis, fringilla a quam. Ut vulputate faucibus felis, vel tempus ante fermentum ac. Fusce pulvinar odio at lorem fermentum lobortis.</p>
+				<ul>
+					<li>Option 1</li>
+					<li>Option 2</li>
+					<li>Option 3</li>
+					<li>Option 4</li>
+				</ul>
+				<div class="post-meta-data rounded">
+					<div class="tags">
+						<p><a href="#">Tag 1</a>, <a href="#">Tag 2</a>, <a href="#">Tag 3</a></p>
+					</div>
+					<span class="category"><a href="#">Category 1</a>, <a href="#">Category 2</a>, <a href="#">Category 3</a></span> |
+					<span class="edit"><a title="Edit" href="#">Edit</a> | </span>
+					<span class="comments"><a title="Comments" href="#">No Comments</a></span>
+				</div>
+			</div>
+
+			<div class="entry">
+				<h2 class="post-title">Post Title</h2>
+				<div class="post-info">Posted by, Chris Kankiewicz on May 28th, 2009</div>
+				<p>Vivamus volutpat diam sem, tempus gravida ipsum. In lacinia sollicitudin diam id fringilla. Nullam viverra lobortis velit, tincidunt egestas lorem iaculis at. Nulla sagittis justo sit amet felis venenatis porta. Aliquam vitae leo urna, ac feugiat tortor. Aliquam nec ipsum diam, non condimentum mauris. Mauris ullamcorper bibendum purus, quis aliquet nisi tempor vitae. Etiam ullamcorper suscipit interdum. Morbi lobortis ultricies tortor sed malesuada.</p>
+				<p>Praesent nunc augue, lacinia eget egestas ac, consectetur nec augue. Duis nisl elit, vulputate volutpat viverra eget, imperdiet eu ligula. Nunc egestas bibendum sapien, quis pharetra leo fringilla et. Suspendisse potenti.  Suspendisse adipiscing, leo eu consequat vestibulum, nisl ipsum vehicula dolor, a placerat sem orci congue risus. Fusce a tincidunt velit. Sed sagittis lectus fermentum mauris laoreet porta.</p>
+				<div class="post-meta-data rounded">
+					<div class="tags">
+						<p><a href="#">Tag 1</a>, <a href="#">Tag 2</a>, <a href="#">Tag 3</a></p>
+					</div>
+					<span class="category"><a href="#">Category 1</a>, <a href="#">Category 2</a>, <a href="#">Category 3</a></span> |
+					<span class="edit"><a title="Edit" href="#">Edit</a> | </span>
+					<span class="comments"><a title="Comments" href="#">No Comments</a></span>
+				</div>
+			</div>
+		</div>
+
 		<div id="right-nav">Right Nav</div>
 	</div>
 
