@@ -114,11 +114,18 @@
 		</div>
 
 		<div id="right-nav">
-			<div id="meeting-info" class="rounded">
-				<h3>Next Offical Meeting</h3>
-				<p><strong>August 7, 2009</strong></p>
-				<p><small><a href="#">Click here for more info</a></small></p>
-			</div>
+			<a href="meeting-info" id="meeting-info" class="rounded">
+				<span class="title">Next Offical Meeting</span>
+				<span class="row clearfix">
+					<span class="left">Date:</span>
+					<span class="right">August 7, 2009</span>
+				</span>
+				<span class="row clearfix">
+					<span class="left">Time:</span>
+					<span class="right">6:00 pm</span>
+				</span>
+				<span class="more-info">Click for more info</span>
+			</a>
 		</div>
 	</div>
 

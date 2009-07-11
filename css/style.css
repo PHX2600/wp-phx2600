@@ -48,6 +48,7 @@ table {
 
 #logo {
 	float: left;
+	width: 500px;
 }
 
 #search {
@@ -55,6 +56,7 @@ table {
 	float: right;
 	height: auto;
 	margin: 20px 0 0;
+	width: auto;
 }
 
 #search-table {
@@ -71,10 +73,10 @@ table {
 
 #search button {
 	background-color: #121212;
-	border: 1px solid #121212;
+	border: none;
 	color: #FFF;
 	cursor: pointer;
-	padding: 6px;
+	padding: 7px;
 }
 
 
@@ -123,6 +125,7 @@ table {
 	float: right;
 	font-size: .9em;
 	margin: 5px;
+	width: 16px;
 }
 
 
@@ -211,30 +214,53 @@ table {
 #meeting-info {
 	background-color: #900000;
 	color: #FFF;
+	display: block;
 	font-size: .8em;
 	margin: 10px 0;
 	padding: 10px;
+	text-decoration: none;
 }
 
-#meeting-info h3 {
+#meeting-info .title {
 	border-bottom: 1px solid #FFF;
+	display: block;
+	font-size: 1.2em;
+	font-weight: bold;
 	margin: 0;
+	padding: 0 0 2px;
+	text-align: center;
 }
 
-#meeting-info p {
-	margin: 0;
-	padding: 0;
-}
 
 #meeting-info a {
 	color: #FFF;
 }
 
-#meeting-info table tr {
-	border-top: 1px solid #FFF;
+#meeting-info .row {
+	border-bottom: 1px solid #FFF;
+	display: block;
+	padding: 2px 0;
 }
 
+#meeting-info .row .left {
+	float: left;
+	font-weight: bold;
+	width: 30%;
+}
 
+#meeting-info .row .right {
+	float: right;
+	text-align: right;
+	width: 70%;
+}
+
+#meeting-info .more-info {
+	display: block;
+	font-size: .85em;
+	margin: 5px 0 0;
+	padding: 0;
+	text-align: center;
+}
 
 
 /* -------------------- */
