@@ -208,6 +208,34 @@ table {
 	width: 190px;
 }
 
+#meeting-info {
+	background-color: #900000;
+	color: #FFF;
+	font-size: .8em;
+	margin: 10px 0;
+	padding: 10px;
+}
+
+#meeting-info h3 {
+	border-bottom: 1px solid #FFF;
+	margin: 0;
+}
+
+#meeting-info p {
+	margin: 0;
+	padding: 0;
+}
+
+#meeting-info a {
+	color: #FFF;
+}
+
+#meeting-info table tr {
+	border-top: 1px solid #FFF;
+}
+
+
+
 
 /* -------------------- */
 /* -----[ FOOTER ]----- */

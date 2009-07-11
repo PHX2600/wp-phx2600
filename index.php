@@ -113,7 +113,13 @@
 			</div>
 		</div>
 
-		<div id="right-nav">Right Nav</div>
+		<div id="right-nav">
+			<div id="meeting-info" class="rounded">
+				<h3>Next Offical Meeting</h3>
+				<p><strong>August 7, 2009</strong></p>
+				<p><small><a href="#">Click here for more info</a></small></p>
+			</div>
+		</div>
 	</div>
 
 	<div id="footer" class="rounded-bottom">
