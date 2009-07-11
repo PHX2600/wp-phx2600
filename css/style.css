@@ -118,6 +118,11 @@ table {
 	border-left: 1px solid #323232;
 }
 
+#navigation #feed-icon {
+	float: right;
+	margin: 5px;
+}
+
 
 /* ------------------ */
 /* -----[ BODY ]----- */

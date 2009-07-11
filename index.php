@@ -51,11 +51,11 @@
 		</div>
 
 		<div id="search" class="rounded-small">
-			<form method="get" action="/search/go/" id="search-form">
+			<form method="get" action="/" id="search-form">
 			<table id="search-table">
 				<tr>
-					<td><input type="text" value="Search" name="search" id="search-box" onfocus="if(this.defaultValue == this.value) this.value = '';" onblur="if(this.value == '') this.value = this.defaultValue;"></input></td>
-					<td><button type="submit" value="" id="search-button">Go</button></td>
+					<td><input type="text" value="Search" name="s" id="search-box" onfocus="if(this.defaultValue == this.value) this.value = '';" onblur="if(this.value == '') this.value = this.defaultValue;"></input></td>
+					<td><button type="submit" id="search-button">Go</button></td>
 				</tr>
 			</table>
 			</form>
@@ -72,6 +72,7 @@
 			<li><a href="#">Link</a></li>
 			<li><a href="#">Link</a></li>
 		</ul>
+		<a href="#" id="feed-icon"><img src="../images/icons/feed3.png" /></a>
 	</div>
 
 	<div id="body" class="clearfix">
