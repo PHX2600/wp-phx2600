@@ -47,7 +47,7 @@
 
 <div id="wrap">
 
-	<div id="header" class="rounded-top">
+	<div id="header" class="rounded-top clearfix">
 
 		<div id="logo">
 			<a href="index.php"><img src="/images/phx2600-text.png" alt="PHX2600" /></a>
