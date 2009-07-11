@@ -118,12 +118,12 @@
 
 	<div id="footer" class="rounded-bottom">
 		<div class="left">
-			<p><a href="http://www.phx2600.org">PHX2600</a> &bull; <a href="sitemap.xml">Sitemap</a></p>
-			<p>Copyright &copy; 2009 &bull; Some Rights Reserved</p>
+			<p>Web design by, <a href="http://www.chriskankiewicz.com">Chris Kankiewicz</a></p>
+			<p>Copyright &copy; 2009 &bull; <a href="http://www.phx2600.org">PHX2600</a> &bull; Some Rights Reserved</p>
 		</div>
 		<div class="right">
-			<p><a href="#">Blog (RSS)</a> &bull; <a href="#">Conments (RSS)</a> &bull; Powered by, <a href="http://www.wordpress.org">Wordpress</a></p>
-			<p>Web design by, <a href="http://www.chriskankiewicz.com">Chris Kankiewicz</a></p>
+			<p> Powered by, <a href="http://www.wordpress.org">Wordpress</a></p>
+			<p><a href="#">Blog (RSS)</a> &bull; <a href="#">Conments (RSS)</a><?php if (file_exists('sitemap.xml')): ?> &bull; <a href="sitemap.xml">Sitemap</a><?php endif; ?></p>
 		</div>
 	</div>
 
