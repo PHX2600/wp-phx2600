@@ -47,7 +47,7 @@
 	<div id="header" class="rounded-top">
 
 		<div id="logo">
-			<img src="/images/phx2600-text.png" />
+			<a href="index.php"><img src="/images/phx2600-text.png" alt="PHX2600" /></a>
 		</div>
 
 		<div id="search" class="rounded-small">
@@ -72,7 +72,7 @@
 			<li><a href="#">Link</a></li>
 			<li><a href="#">Link</a></li>
 		</ul>
-		<a href="#" id="feed-icon"><img src="../images/icons/feed3.png" /></a>
+		<a href="#" id="feed-icon"><img src="../images/icons/feed.png" alt="RSS" /></a>
 	</div>
 
 	<div id="body" class="clearfix">
