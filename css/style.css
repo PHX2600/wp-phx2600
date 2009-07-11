@@ -215,7 +215,21 @@ table {
 
 #footer {
 	background: #323232 url(../images/footer-bg.png) repeat-x top left;
+	color: #DEDEDE;
+	font-size: .8em;
 	height: 60px;
+	padding: 12px 10px 10px;
+}
+
+#footer .left {
+	float: left;
+	width: 50%;
+}
+
+#footer .right {
+	float: right;
+	text-align: right;
+	width: 50%;
 }
 
 
