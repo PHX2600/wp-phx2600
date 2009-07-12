@@ -52,6 +52,11 @@
 
 	<div id="body" class="clearfix">
 		<div id="content">
+			<?php if($notification): ?>
+			<div class="notify">
+				<p>This is a sample notification box.</p>
+			</div>
+			<?php endif; ?>
 			<div class="entry">
 				<h2 class="post-title">Post Title</h2>
 				<div class="post-info">Posted by, Chris Kankiewicz on May 28th, 2009</div>

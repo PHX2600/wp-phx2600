@@ -148,6 +148,20 @@ table {
 	border-right: 1px solid #000;
 }
 
+/* ---[ NOTIFICATIONS ]--- */
+
+.notify {
+	background-color: #DDF;
+	border: 1px solid #009;
+	margin-bottom: 10px;
+	padding: 5px 10px;
+	-moz-border-radius: 5px;
+}
+
+.notify p {
+	margin: 0;
+}
+
 
 /* ---[ CONTENT ] --- */
 
