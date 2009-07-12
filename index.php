@@ -13,47 +13,19 @@
 
 	<meta name="keywords" content="Phoenix, Arizona, Network, Hackers, Hacking, Social Engineering, Urban Exploration, Lock Picking" />
 	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
-
-	<script type="text/javascript" src="/js/jquery.js"></script>
-	<script type="text/javascript" src="/js/jquery.curvycorners.js"></script>
-
-	<script type="text/javascript">
-	$(document).ready(function(){
-		$('.rounded').corner();
-		$('.rounded-top').corner({
-			tl: {radius: 10},
-			tr: {radius: 10},
-			bl: false,
-			br: false
-		});
-		$('.rounded-bottom').corner({
-			tl: false,
-			tr: false,
-			bl: {radius: 10},
-			br: {radius: 10}
-		});
-
-		$('.rounded-small').corner({
-			tl: {radius: 4},
-			tr: {radius: 4},
-			bl: {radius: 4},
-			br: {radius: 4}
-		});
-	});
-	</script>
 </head>
 
 <body>
 
 <div id="wrap">
 
-	<div id="header" class="rounded-top clearfix">
+	<div id="header" class="clearfix">
 
 		<div id="logo">
 			<a href="index.php"><img src="/images/phx2600-text.png" alt="PHX2600" /></a>
 		</div>
 
-		<div id="search" class="rounded-small">
+		<div id="search">
 			<form method="get" action="/" id="search-form">
 			<table id="search-table">
 				<tr>
@@ -90,7 +62,7 @@
 					<li>Option 3</li>
 					<li>Option 4</li>
 				</ul>
-				<div class="post-meta-data rounded">
+				<div class="post-meta-data">
 					<div class="tags">
 						<p><a href="#">Tag 1</a>, <a href="#">Tag 2</a>, <a href="#">Tag 3</a></p>
 					</div>
@@ -105,7 +77,7 @@
 				<div class="post-info">Posted by, Chris Kankiewicz on May 28th, 2009</div>
 				<p>Vivamus volutpat diam sem, tempus gravida ipsum. In lacinia sollicitudin diam id fringilla. Nullam viverra lobortis velit, tincidunt egestas lorem iaculis at. Nulla sagittis justo sit amet felis venenatis porta. Aliquam vitae leo urna, ac feugiat tortor. Aliquam nec ipsum diam, non condimentum mauris. Mauris ullamcorper bibendum purus, quis aliquet nisi tempor vitae. Etiam ullamcorper suscipit interdum. Morbi lobortis ultricies tortor sed malesuada.</p>
 				<p>Praesent nunc augue, lacinia eget egestas ac, consectetur nec augue. Duis nisl elit, vulputate volutpat viverra eget, imperdiet eu ligula. Nunc egestas bibendum sapien, quis pharetra leo fringilla et. Suspendisse potenti.  Suspendisse adipiscing, leo eu consequat vestibulum, nisl ipsum vehicula dolor, a placerat sem orci congue risus. Fusce a tincidunt velit. Sed sagittis lectus fermentum mauris laoreet porta.</p>
-				<div class="post-meta-data rounded">
+				<div class="post-meta-data">
 					<div class="tags">
 						<p><a href="#">Tag 1</a>, <a href="#">Tag 2</a>, <a href="#">Tag 3</a></p>
 					</div>
@@ -117,7 +89,7 @@
 		</div>
 
 		<div id="right-nav">
-			<a href="meeting-info" id="meeting-info" class="rounded">
+			<a href="meeting-info" id="meeting-info">
 				<span class="title">Next Offical Meeting</span>
 				<span class="row clearfix">
 					<span class="left">Date:</span>
@@ -132,13 +104,13 @@
 		</div>
 	</div>
 
-	<div id="footer" class="rounded-bottom">
+	<div id="footer" class="clearfix">
 		<div class="left">
-			<p>Web design by, <a href="http://www.chriskankiewicz.com">Chris Kankiewicz</a></p>
+			<p>Web design by, <a href="http://www.chriskankiewicz.com">Chris Kankiewicz</a></p><br />
 			<p>Copyright &copy; 2009 &bull; <a href="http://www.phx2600.org">PHX2600</a> &bull; Some Rights Reserved</p>
 		</div>
 		<div class="right">
-			<p> Powered by, <a href="http://www.wordpress.org">Wordpress</a></p>
+			<p> Powered by, <a href="http://www.wordpress.org">Wordpress</a></p><br />
 			<p><a href="#">Blog (RSS)</a> &bull; <a href="#">Conments (RSS)</a><?php if (file_exists('sitemap.xml')): ?> &bull; <a href="sitemap.xml">Sitemap</a><?php endif; ?></p>
 		</div>
 	</div>
