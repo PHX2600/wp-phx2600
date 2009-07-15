@@ -238,15 +238,15 @@ table {
 
 #meeting-info {
 	background-color: #900000;
-	border-radius: 10px;
+	border-radius: 5px;
 	color: #FFF;
 	display: block;
 	font-size: .8em;
 	margin: 0 0 10px;
 	padding: 10px;
 	text-decoration: none;
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
 }
 
 #meeting-info:hover {
@@ -262,7 +262,6 @@ table {
 	padding: 0 0 2px;
 	text-align: center;
 }
-
 
 #meeting-info a {
 	color: #FFF;
@@ -308,9 +307,48 @@ table {
 	margin: 0;
 }
 
-#sidebar h2 {
+#sidebar > ul {
+	margin-bottom: 10px;
+}
+
+#sidebar > ul > li {
+	background-color: #323232;
+	border-radius: 4px;
+	padding: 0 3px 3px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+
+#sidebar ul li h2 {
+	color: #FFF;
+	font-size: .9em;
 	margin: 0;
-	padding: 0;
+	padding: 2px 3px;
+}
+
+#sidebar ul li ul {
+	background-color: #FFF;
+	border-radius: 5px;
+	margin: 0;
+}
+
+#sidebar ul li ul li {
+	font-size: .9em;
+}
+
+#sidebar ul li ul li a {
+	border-top: 1px solid #FFF;
+	border-bottom: 1px solid #CCC;
+	text-decoration: none;
+	display: block;	
+	padding: 1px 5px;
+}
+
+#sidebar ul li ul li a:hover {
+	background-color: #900000;
+	border-top: 1px solid #900000;
+	border-bottom: 1px solid #900000;
+	color: #FFF;
 }
 
 
