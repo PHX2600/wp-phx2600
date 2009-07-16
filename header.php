@@ -24,3 +24,31 @@
 <body>
 
 <div id="wrap">
+
+	<div id="header" class="clearfix">
+		<div id="logo">
+			<a href="<?php echo(bloginfo('url')); ?>" title="<?php wp_title('&laquo;', true, 'right'); ?> <?php bloginfo('name'); ?>"><img src="<?php bloginfo('template_url'); ?>/images/phx2600-text.png" alt="PHX2600" /></a>
+		</div>
+		<div id="search">
+			<form method="get" action="/" id="search-form">
+			<table id="search-table">
+				<tr>
+					<td><input type="text" value="Search" name="s" id="search-box" onfocus="if(this.defaultValue == this.value) this.value = '';" onblur="if(this.value == '') this.value = this.defaultValue;"></input></td>
+					<td><button type="submit" id="search-button">Go</button></td>
+				</tr>
+			</table>
+			</form>
+		</div>
+	</div>
+
+	<div id="navigation">
+		<ul>
+			<li><a href="index.php">Home</a></li>
+			<li><a href="#">Link</a></li>
+			<li><a href="#">Link</a></li>
+			<li><a href="#">Link</a></li>
+			<li><a href="#">Link</a></li>
+			<li><a href="#">Link</a></li>
+		</ul>
+		<a href="<?php bloginfo('rss2_url'); ?>" id="feed-icon"><img src="<?php bloginfo('template_url'); ?>/images/icons/feed.png" alt="RSS" /></a>
+	</div>

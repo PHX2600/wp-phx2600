@@ -131,7 +131,7 @@ html {
 }
 
 body {
-	background: #500000 url(../images/bg-gradient.png) repeat-x top left;
+	background: #500000 url(images/bg-gradient.png) repeat-x top left;
 	color: #333;
 	font-family: sans-serif, Verdana, Tahoma, Sans, Arial, Helvetica;
 	font-size: 1em;
@@ -166,7 +166,7 @@ table {
 /* -------------------- */
 
 #header {
-	background: #000 url(../images/header-bg.png) repeat-x top left;
+	background: #000 url(images/header-bg.png) repeat-x top left;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 	padding: 20px 20px 15px;
@@ -218,7 +218,7 @@ table {
 /* ------------------------ */
 
 #navigation {
-	background: #323232 url(../images/nav-bg.jpg) repeat-x top left;
+	background: #323232 url(images/nav-bg.jpg) repeat-x top left;
 	border-left: 1px solid #000;
 	border-right: 1px solid #000;
 	color: #FFF;
@@ -267,22 +267,22 @@ table {
 /* ------------------ */
 
 #body {
-	background: #FFF url(../images/right-nav-bg.gif) repeat-y top right;
+	background: #FFF url(images/right-nav-bg.gif) repeat-y top right;
 	border-left: 1px solid #000;
 	border-right: 1px solid #000;
 }
 
 /* ---[ NOTIFICATIONS ]--- */
 
-.notify {
-	background-color: #DDF;
-	border: 1px solid #009;
+.notice {
+	background: #DDF url(images/icons/information.png) no-repeat 5px center;
+	border: 1px solid #AAC;
 	margin-bottom: 10px;
-	padding: 5px 10px;
+	padding: 5px 5px 5px 26px;
 	-moz-border-radius: 5px;
 }
 
-.notify p {
+.notice p {
 	margin: 0;
 }
 
@@ -297,7 +297,7 @@ table {
 }
 
 .entry {
-	background: #FFF url(../images/post-gradient.gif) repeat-x top left;
+	background: #FFF url(images/post-gradient.gif) repeat-x top left;
 	border: 1px solid #CCC;
 	font-size: .9em;
 	margin: 0 0 10px;
@@ -329,24 +329,24 @@ table {
 }
 
 .post-meta-data .tags {
-	background: transparent url(../images/icons/tag_blue.png) no-repeat left center;
+	background: transparent url(images/icons/tag_blue.png) no-repeat left center;
 	font-size: 0.8em;
 	margin: 2px 0 .5em;
 	padding: 0 0 0 20px;
 }
 
 .post-meta-data .category {
-	background: transparent url(../images/icons/application_view_list.png) no-repeat left center;
+	background: transparent url(images/icons/application_view_list.png) no-repeat left center;
 	padding: 0 0 5px 20px;
 }
 
 .post-meta-data .edit a {
-	background: transparent url(../images/icons/page_white_edit.png) no-repeat left center;
+	background: transparent url(images/icons/page_white_edit.png) no-repeat left center;
 	padding: 0 0 0 20px;
 }
 
 .post-meta-data .comments a {
-	background: transparent url(../images/icons/comments.png) no-repeat left center;
+	background: transparent url(images/icons/comments.png) no-repeat left center;
 	padding: 0 0 5px 20px;
 }
 
@@ -481,7 +481,7 @@ table {
 /* -------------------- */
 
 #footer {
-	background: #323232 url(../images/footer-bg.png) repeat-x top left;
+	background: #323232 url(images/footer-bg.png) repeat-x top left;
 	border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 10px;
 	color: #DEDEDE;
