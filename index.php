@@ -5,9 +5,12 @@
 	<title>PHX2600 - The Phoenix, Arizona Network of Hackers</title>
 	<link rel="stylesheet" type="text/css" href="/css/rebase.css" />
 	<link rel="stylesheet" type="text/css" href="/css/style.css" />
-	<!--[if lte IE 8]><link rel="stylesheet" href="css/ie8-hacks.css" type="text/css" /><![endif]-->
-    <!--[if lte IE 7]><link rel="stylesheet" href="css/ie7-hacks.css" type="text/css" /><![endif]-->
-
+	<!--[if lte IE 8]>
+		<style type="text/css">#search button { padding: 8px; }</style>
+	<![endif]-->
+    <!--[if lte IE 7]>
+    	<style type="text/css">#search button { padding: 6px; }</style>
+    <![endif]-->
 
 	<link rel="shortcut icon" href="/images/icons/folder_explore.png" />
 
