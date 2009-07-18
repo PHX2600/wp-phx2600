@@ -43,12 +43,8 @@
 
 	<div id="navigation">
 		<ul>
-			<li><a href="index.php">Home</a></li>
-			<li><a href="#">Link</a></li>
-			<li><a href="#">Link</a></li>
-			<li><a href="#">Link</a></li>
-			<li><a href="#">Link</a></li>
-			<li><a href="#">Link</a></li>
+			<li<?php if (is_home()): ?> id="current"<?php endif; ?>><a href="<?php echo get_settings('home'); ?>">Home</a></li>
+			<?php wp_list_pages('title_li='); ?>
 		</ul>
 		<a href="<?php bloginfo('rss2_url'); ?>" id="feed-icon"><img src="<?php bloginfo('template_url'); ?>/images/icons/feed.png" alt="RSS" /></a>
 	</div>

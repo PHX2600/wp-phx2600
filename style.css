@@ -257,14 +257,16 @@ table {
 	background: #000 url(images/gradient-bg-red.jpg) repeat-x left top;
 }
 
-#navigation ul li.active a {
+#navigation ul li#current a,
+#navigation ul li.current_page_item a {
 	background: #FFF none repeat left top;
 	border: 1px solid #000;
 	border-bottom: 1px solid #FFF;
 	color: #000;
 }
 
-#navigation ul li.active a:hover {
+#navigation ul li#current a:hover,
+#navigation ul li.current_page_item a:hover {
 	background: #FFF none repeat left top;
 	border: 1px solid #000;
 	border-bottom: 1px solid #FFF;
