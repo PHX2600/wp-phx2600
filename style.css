@@ -364,7 +364,7 @@ table {
 	padding: 0 0 0 20px;
 }
 
-.post-meta-data .comments a {
+.post-meta-data a.comments {
 	background: transparent url(images/icons/comments.png) no-repeat left center;
 	padding: 0 0 5px 20px;
 }
