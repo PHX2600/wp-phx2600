@@ -21,7 +21,7 @@
 							<?php if ( function_exists('the_tags') ) { the_tags('<div class="tags"><p>Tags: ', ', ', '</p></div>'); } ?></p>
 							<span class="category"><?php the_category(', ') ?></span> |
 							<span class="edit"><?php edit_post_link('Edit', '', ' |'); ?></span>
-							<?php comments_popup_link('No Comments', '1 Comment', '% Comments', 'comments', 'Comments are disables for this post'); ?>
+							<?php comments_popup_link('No Comments', '1 Comment', '% Comments', 'comments', 'Comments disabled'); ?>
 						</div>
 					</div>
 
