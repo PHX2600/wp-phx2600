@@ -577,11 +577,11 @@ table {
   display: none;
 }
 
-.alignright {
+img.alignright {
 	margin: 0 0 .5em .5em;
 }
 
-.alignleft {
+img.alignleft {
 	margin: 0 .5em .5em 0;
 }
 
