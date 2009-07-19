@@ -19,9 +19,7 @@
 
 				<?php endwhile; ?>
 
-				<div id="pagination">
-					<?php if(function_exists('wp_pagenavi')) { wp_pagenavi(); } ?>
-				</div>
+				<?php comments_template(); ?>
 
 			<?php else: ?>
 				<div class="entry">
