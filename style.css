@@ -360,13 +360,10 @@ table {
 	margin: 2px 0 15px;
 }
 
-.read-full {
-	text-align: right;
-}
-
-.read-full a {
+.more-link {
 	background: transparent url(images/icons/bullet_go.png) no-repeat right center;
 	padding-right: 20px;
+	float: right;
 }
 
 .post-meta-data {

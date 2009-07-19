@@ -45,7 +45,7 @@
 						<h2 class="post-title"><a href="<?php the_permalink() ?>" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
 						<div class="post-info">Posted by, <?php the_author() ?> on <?php unset($previousday); printf(__('%1$s at %2$s'), the_date('', '', '', false), get_the_time()) ?></div>
 						<div class="post-content clearfix">
-							<?php the_content('<div class="read-full">Read the rest of this entry</div>'); ?>
+							<?php the_content('Read the rest of this entry'); ?>
 						</div>
 						<div class="post-meta-data">
 							<?php if ( function_exists('the_tags') ) { the_tags('<div class="tags"><p>Tags: ', ', ', '</p></div>'); } ?>

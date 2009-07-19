@@ -1,0 +1,39 @@
+.wp-pagenavi {
+	font-size: .8em;
+}
+
+.wp-pagenavi a {
+	padding: 5px 7px;
+	text-decoration: none;
+	border: 1px solid #FFF;
+}
+
+.wp-pagenavi a:hover {
+	background: #F7F7F7;
+	border: 1px solid #CCC;
+	border-radius: 3px;
+	text-decoration: none;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+.wp-pagenavi span.pages {
+	padding: 1px 7px 1px 22px !important;
+	padding: 2px 7px 2px 22px;
+	background: transparent url(images/icons/page_white_stack.png) no-repeat left center;
+	height: 16px;
+	line-height: 16px;
+}
+
+*+html .wp-pagenavi span.pages {
+	padding: 2px 7px 2px 22px !important;
+}
+
+.wp-pagenavi span.current {
+	font-weight: bold;
+	padding: 5px 7px;
+}
+
+.wp-pagenavi span.extend {
+	padding: 2px 4px;
+}
