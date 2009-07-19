@@ -1,7 +1,7 @@
 /*
 Theme Name: PHX2600
-Theme URI: http://portfolio.chriskankiewicz.com
-Description: Second wordpress theme for http://www.phx2600.org by <a href="http://www.chriskankiewicz.com">Chris Kankiewicz</a>.
+Theme URI: http://www.chriskankiewicz.com/portfolio
+Description: Wordpress theme for http://www.phx2600.org by <a href="http://www.chriskankiewicz.com">Chris Kankiewicz</a>.
 Version: 2.0
 Author: Chris Kankiewicz
 Author URI: http://www.chriskankiewicz.com
@@ -370,7 +370,9 @@ table {
 }
 
 
-/* ---[ RIGHT NAVIGATION ]--- */
+/* --------------------- */
+/* -----[ SIDEBAR ]----- */
+/* --------------------- */
 
 #right-nav {
 	float: right;
@@ -439,12 +441,12 @@ table {
 #sidebar {
 }
 
-#sidebar ul, #sidebar ul ol {
-	margin: 0 0 10px;
+#sidebar ul {
+	margin: 0;
 	padding: 0;
 }
 
-#sidebar ul li {
+#sidebar ul li, #sidebar ul ol {
 	list-style-image: none;
 	list-style-type: none;
 	margin: 0;
@@ -457,6 +459,7 @@ table {
 #sidebar > ul > li {
 	background-color: #323232;
 	border-radius: 4px;
+	margin: 0 0 10px;
 	padding: 0 3px 3px;
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
