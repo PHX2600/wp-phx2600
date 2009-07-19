@@ -2,7 +2,7 @@
 	<div id="footer" class="clearfix">
 		<div class="left">
 			<p>Web design by, <a href="http://www.chriskankiewicz.com">Chris Kankiewicz</a></p><br />
-			<p>Copyright &copy; 2009 &bull; <a href="http://www.phx2600.org">PHX2600</a> &bull; Some Rights Reserved</p>
+			<p>Copyright &copy; 2009 &bull; PHX2600 &bull; Some Rights Reserved</p>
 		</div>
 		<div class="right">
 			<p> Powered by, <a href="http://www.wordpress.org">Wordpress</a></p><br />
