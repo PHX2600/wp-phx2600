@@ -48,7 +48,7 @@
 							<?php the_content('<div class="read-full">Read the rest of this entry</div>'); ?>
 						</div>
 						<div class="post-meta-data">
-							<?php if ( function_exists('the_tags') ) { the_tags('<div class="tags"><p>Tags: ', ', ', '</p></div>'); } ?></p>
+							<?php if ( function_exists('the_tags') ) { the_tags('<div class="tags"><p>Tags: ', ', ', '</p></div>'); } ?>
 							<span class="category"><?php the_category(', ') ?></span> |
 							<span class="edit"><?php edit_post_link('Edit', '', ' |'); ?></span>
 							<?php comments_popup_link('No Comments', '1 Comment', '% Comments', 'comments', 'Comments disabled'); ?>
