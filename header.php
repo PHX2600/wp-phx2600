@@ -6,11 +6,11 @@
 	<title><?php wp_title('&laquo;', true, 'right'); ?> <?php bloginfo('name'); ?></title>
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" />
 	<!--[if lte IE 8]>
-		<style type="text/css">#search button { padding: 8px; }</style>
+		<style type="text/css">#search button { padding: 7px; }</style>
 	<![endif]-->
-    <!--[if lte IE 7]>
-    	<style type="text/css">#search button { padding: 6px; }</style>
-    <![endif]-->
+	<!--[if lte IE 7]>
+		<style type="text/css">#search button { padding: 5px; }</style>
+	<![endif]-->
 
 	<link rel="shortcut icon" href="/images/icons/folder_explore.png" />
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />

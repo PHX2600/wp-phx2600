@@ -296,9 +296,12 @@ table {
 .notice {
 	background: #DDF url(images/icons/information.png) no-repeat 5px center;
 	border: 1px solid #AAC;
+	border-radius: 5px;
+	font-size: .9em;
 	margin-bottom: 10px;
 	padding: 5px 5px 5px 26px;
-	-moz-border-radius: 5px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 5px;
 }
 
 .notice p {
@@ -337,6 +340,10 @@ table {
 	color: #707070;
 	font-size: 0.8em;
 	margin: 2px 0 15px;
+}
+
+.read-full {
+	text-align: right;
 }
 
 .post-meta-data {
