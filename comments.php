@@ -15,7 +15,7 @@
 	<!-- You can start editing here. -->
 
 	<?php if ( have_comments() ) : ?>
-		<h3 id="comments-header"><?php comments_number('No Responses', 'One Response', '% Responses' );?> to &#8220;<?php the_title(); ?>&#8221;</h3>
+		<h3 id="comments-header"><?php comments_number('No Responses', 'One Response', '% Responses' ); ?> to &#8220;<?php the_title(); ?>&#8221;</h3>
 
 		<div class="navigation">
 			<div class="alignleft"><?php previous_comments_link() ?></div>
@@ -23,14 +23,14 @@
 		</div>
 
 		<ol class="commentlist">
-			<?php foreach ($comments as $comment) : ?>
-				<div class="comment" id="comment-<?php comment_ID() ?>">
+			<?php foreach ($comments as $comment): ?>
+				<div class="comment" id="comment-<?php comment_ID(); ?>">
 					<div class="comment-info">
-						<strong><?php comment_author_link() ?></strong> on <a href="#comment-<?php comment_ID() ?>" title=""><?php comment_date('F j, Y') ?></a> <?php edit_comment_link('Edit',' | ',''); ?>
+						<strong><?php comment_author_link(); ?></strong> on <a href="#comment-<?php comment_ID(); ?>" title=""><?php comment_date('F j, Y'); ?></a> <?php edit_comment_link('Edit',' | ',''); ?>
 					</div>
 					<div class="comment-image"></div>
 					<div class="comment-body">
-						<?php comment_text() ?>
+						<?php comment_text(); ?>
 					</div>
 				</div>
 			<?php endforeach; ?>
