@@ -3,7 +3,7 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
-	<title><?php wp_title('&laquo;', true, 'right'); ?> <?php bloginfo('name'); ?> - <?php bloginfo('description'); ?></title>
+	<title><?php wp_title('|', true, 'right'); ?> <?php bloginfo('name'); ?> - <?php bloginfo('description'); ?></title>
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" />
 	<!--[if lte IE 8]>
 		<style type="text/css">#search button { padding: 7px; }</style>
@@ -27,7 +27,7 @@
 
 	<div id="header" class="clearfix">
 		<div id="logo">
-			<a href="<?php echo(bloginfo('url')); ?>" title="<?php wp_title('&laquo;', true, 'right'); ?> <?php bloginfo('name'); ?>"><img src="<?php bloginfo('template_url'); ?>/images/phx2600-text.png" alt="PHX2600" /></a>
+			<a href="<?php echo(bloginfo('url')); ?>" title="<?php bloginfo('name'); ?> - <?php bloginfo('description'); ?>"><img src="<?php bloginfo('template_url'); ?>/images/phx2600-text.png" alt="PHX2600" /></a>
 		</div>
 		<div id="search">
 			<form method="get" action="/" id="search-form">
