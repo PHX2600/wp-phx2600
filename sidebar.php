@@ -12,11 +12,8 @@
 				<span class="more-info">Click for more info</span>
 			</a>
 			<div id="sidebar">
+				<?php if (!function_exists('dynamic_sidebar') || !dynamic_sidebar()): /* Widgetized sidebar, if you have the plugin installed. */ ?>
 				<ul>
-					<?php /* Widgetized sidebar, if you have the plugin installed. */
-						if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar() ) : ?>
-				</ul>
-				<ul role="navigation">
 					<?php wp_list_pages('title_li=<h2>Pages</h2>' ); ?>
 
 					<li><h2>Archives</h2>

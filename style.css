@@ -577,6 +577,14 @@ table {
   display: none;
 }
 
+.alignright {
+	margin: 0 0 .5em .5em;
+}
+
+.alignleft {
+	margin: 0 .5em .5em 0;
+}
+
 /* CLEAR FIX*/
 .clearfix:after {content: ".";
 	display: block;
