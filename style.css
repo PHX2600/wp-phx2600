@@ -341,6 +341,11 @@ table {
 	line-height: 1.3em;
 }
 
+.entry blockquote {
+	background: transparent url(images/quote.png) no-repeat left top;
+	padding-left: 30px;
+}
+
 .post-title {
 	color: #900000;
 	font-size: 1.3em;
@@ -355,6 +360,7 @@ table {
 
 .more-link {
 	background: transparent url(images/icons/bullet_go.png) no-repeat right center;
+	margin-bottom: 1em;
 	padding-right: 20px;
 	float: right;
 }
@@ -394,10 +400,12 @@ table {
 #comments-header {
 	background-color: #FFF;
 	border: 1px solid #CCC;
+	border-radius: 5px;
 	color: #646464;
 	margin: 0 0 1em;
 	padding: 5px;
 	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
 }
 
 .commentlist {
