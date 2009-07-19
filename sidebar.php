@@ -13,7 +13,7 @@
 			</a>
 			<div id="sidebar">
 				<ul>
-					<?php 	/* Widgetized sidebar, if you have the plugin installed. */
+					<?php /* Widgetized sidebar, if you have the plugin installed. */
 						if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar() ) : ?>
 				</ul>
 				<ul role="navigation">

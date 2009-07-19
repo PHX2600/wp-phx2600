@@ -2,13 +2,18 @@
 
 	<div id="body" class="clearfix">
 		<div id="content">
+			<!--[if IE]>
+				<div class="notice warning">
+					<p>Your browser does not support <a href="http://www.w3.org/Consortium/">open standards</a>. Please <a href="http://www.getfirefox.com">upgrade immediately</a> to save the interwebz!</p>
+				</div>
+			<![endif]-->
 			<?php if (is_404()): ?>
-				<div class="warning">
+				<div class="notice error">
 					<p>You are currently browsing the archives for the <?php single_cat_title(''); ?> category.</p>
 				</div>
 			<?php endif; ?>
 			<?php if (is_category() || is_day() || is_month() || is_year() || is_search() || is_paged() ):	?>
-				<div class="notice">
+				<div class="notice info">
 					<?php if (is_category()): ?>
 						<p>You are currently browsing the archives for "<i><?php single_cat_title(''); ?></i>"</p>
 					<?php elseif (is_day()): /* If this is a daily archive */  ?>

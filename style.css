@@ -294,14 +294,32 @@ table {
 /* ---[ NOTIFICATIONS ]--- */
 
 .notice {
-	background: #DDF url(images/icons/information.png) no-repeat 5px center;
-	border: 1px solid #AAC;
 	border-radius: 5px;
 	font-size: .9em;
 	margin-bottom: 10px;
 	padding: 5px 5px 5px 26px;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 5px;
+}
+
+.info {
+	background: #DDF url(images/icons/information.png) no-repeat 5px 5px;
+	border: 1px solid #AAC;
+}
+
+.error {
+	background: #FDD url(images/icons/exclamation.png) no-repeat 5px 5px;
+	border: 1px solid #CAA;
+}
+
+.success {
+	background: #DFD url(images/icons/accept.png) no-repeat 5px 5px;
+	border: 1px solid #ACA;
+}
+
+.warning {
+	background: #FFD url(images/icons/error.png) no-repeat 5px 5px;
+	border: 1px solid #CCA;
 }
 
 .notice p {
