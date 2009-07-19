@@ -546,15 +546,20 @@ table {
 	margin: 0;
 }
 
+#footer .logo {
+	float: left;
+	margin-right: 10px;
+}
+
 #footer .left {
 	float: left;
-	width: 50%;
+	width: auto;
 }
 
 #footer .right {
 	float: right;
 	text-align: right;
-	width: 50%;
+	width: auto;
 }
 
 
