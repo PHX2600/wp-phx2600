@@ -52,6 +52,8 @@
 
 	<?php if ( comments_open() ) : ?>
 
+		<div class="hr"><hr /></div>
+
 		<div id="respond">
 
 		<h3><?php comment_form_title( 'Leave a Reply', 'Leave a Reply to %s' ); ?></h3>
