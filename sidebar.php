@@ -3,7 +3,7 @@
 				<span class="title">Next Offical Meeting</span>
 				<span class="row clearfix">
 					<span class="left">Date:</span>
-					<span class="right"><?php include("first-friday.php"); ?></span>
+					<span class="right"><?php echo firstFriday(true); ?></span>
 				</span>
 				<span class="row clearfix">
 					<span class="left">Time:</span>
