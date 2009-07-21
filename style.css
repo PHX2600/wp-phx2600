@@ -513,6 +513,7 @@ table {
 }
 
 #sidebar {
+	font-size: .9em;
 }
 
 #sidebar #archives select {
@@ -545,7 +546,7 @@ table {
 
 #sidebar ul li h2 {
 	color: #FFF;
-	font-size: .9em;
+	font-size: 1em;
 	margin: 0;
 	padding: 2px 3px;
 }
