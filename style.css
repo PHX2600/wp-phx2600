@@ -515,6 +515,10 @@ table {
 #sidebar {
 }
 
+#sidebar #archives select {
+	width: 100%;
+}
+
 #sidebar ul {
 	margin: 0;
 	padding: 0;
