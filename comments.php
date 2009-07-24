@@ -22,7 +22,7 @@
 			<div class="alignright"><?php next_comments_link() ?></div>
 		</div>
 
-		<ol class="commentlist">
+		<div class="commentlist">
 			<?php foreach ($comments as $comment): ?>
 				<div class="comment" id="comment-<?php comment_ID(); ?>">
 					<div class="comment-info">
@@ -41,7 +41,7 @@
 					<?php endif; ?>
 				</div>
 			<?php endforeach; ?>
-		</ol>
+		</div>
 
 		<div class="navigation">
 			<div class="alignleft"><?php previous_comments_link() ?></div>
