@@ -14,7 +14,7 @@
 
 	<!-- You can start editing here. -->
 
-	<?php if ( have_comments() ) : ?>
+	<?php if(have_comments()): ?>
 		<h3 id="comments-header"><?php comments_number('No Responses', 'One Response', '% Responses' ); ?> to &#8220;<?php the_title(); ?>&#8221;</h3>
 
 		<div class="navigation">
@@ -28,10 +28,17 @@
 					<div class="comment-info">
 						<strong><?php comment_author_link(); ?></strong> on <a href="#comment-<?php comment_ID(); ?>" title=""><?php comment_date('F j, Y'); ?></a> <?php edit_comment_link('Edit',' | ',''); ?>
 					</div>
-					<div class="comment-image"></div>
-					<div class="comment-body">
-						<?php comment_text(); ?>
-					</div>
+					<?php if ($comment->user_id == 1): ?>
+						<div class="comment-image-admin"></div>
+						<div class="comment-body-admin">
+							<?php comment_text(); ?>
+						</div>
+					<?php else: ?>
+						<div class="comment-image"></div>
+						<div class="comment-body">
+							<?php comment_text(); ?>
+						</div>
+					<?php endif; ?>
 				</div>
 			<?php endforeach; ?>
 		</ol>

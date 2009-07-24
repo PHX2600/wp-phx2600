@@ -425,6 +425,21 @@ table {
 	padding-left: 18px;
 }
 
+
+
+.comment-image-admin {
+	background: transparent url(images/comment-arrow-admin.gif) no-repeat 16px bottom;
+	margin-top: 5px;
+	padding-top: 11px;
+}
+
+.comment-body-admin {
+	background-color: #FCC;
+	border-radius: 10px;
+	padding: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
 .comment-image {
 	background: transparent url(images/comment-arrow.gif) no-repeat 16px bottom;
 	margin-top: 5px;
@@ -439,7 +454,7 @@ table {
 	-webkit-border-radius: 10px;
 }
 
-.comment-body p {
+.comment-body p, .comment-body-admin p {
 	margin: 0;
 }
 
