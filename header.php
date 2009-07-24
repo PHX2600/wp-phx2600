@@ -12,7 +12,7 @@
 		<style type="text/css">#search button { padding: 5px; }</style>
 	<![endif]-->
 
-	<link rel="shortcut icon" href="/images/icons/folder_explore.png" />
+	<link rel="shortcut icon" href="<?php bloginfo('template_url'); ?>/images/icons/favicon.ico" />
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
 	<meta name="keywords" content="Phoenix, Arizona, Network, Hackers, Hacking, Social Engineering, Urban Exploration, Lock Picking" />
