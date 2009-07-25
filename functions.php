@@ -1,5 +1,15 @@
 <?php
 
+	// Widgetize Sidebar
+	if ( function_exists('register_sidebar') )
+    register_sidebar(array(
+        'before_widget' => '<li>',
+        'after_widget' => '</li>',
+        'before_title' => '<h2>',
+        'after_title' => '</h2>',
+    ));
+
+
 	function firstFriday($formatted = false) {
 	// first-friday.php v0.1.4 by, Chris Kankiewicz (http://www.web-geek.net)
 

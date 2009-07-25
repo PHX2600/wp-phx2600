@@ -12,8 +12,8 @@
 				<span class="more-info">Click for more info</span>
 			</a>
 			<div id="sidebar">
-				<?php if (!function_exists('dynamic_sidebar') || !dynamic_sidebar()): /* Widgetized sidebar, if you have the plugin installed. */ ?>
 				<ul>
+				<?php if (!function_exists('dynamic_sidebar') || !dynamic_sidebar()): /* Widgetized sidebar, if you have the plugin installed. */ ?>
 					<li>
 						<h2>Recent Posts</h2>
 						<ul>
@@ -25,12 +25,10 @@
 
 					<li>
 						<h2>The Archives</h2>
-						<div id="archives">
-							<select name=\"archive-dropdown\" onChange='document.location.href=this.options[this.selectedIndex].value;'>
+						<select name=\"archive-dropdown\" onChange='document.location.href=this.options[this.selectedIndex].value;'>
 							<option value=\"\"><?php echo attribute_escape(__('Select Month')); ?></option>
-							<?php wp_get_archives('type=monthly&format=option&show_post_count=1'); ?> </select>
-						</div>
-
+							<?php wp_get_archives('type=monthly&format=option&show_post_count=1'); ?>
+						</select>
 					</li>
 					<li>
 						<h2>Post Categories</h2>
@@ -39,11 +37,7 @@
 						</ul>
 					</li>
 
-				</ul>
-				<ul>
-					<?php /* If this is the frontpage */ if ( is_home() || is_page() ) { ?>
-						<?php wp_list_bookmarks(); ?>
-					<?php } ?>
+					<?php wp_list_bookmarks(); ?>
 
 					<li><h2>Meta</h2>
 						<ul>
@@ -52,8 +46,7 @@
 							<?php wp_meta(); ?>
 						</ul>
 					</li>
-
-					<?php endif; ?>
+				<?php endif; ?>
 				</ul>
 			</div>
 		</div>

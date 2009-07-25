@@ -372,8 +372,8 @@ table {
 	background-color: #DEDEDE;
 	border-radius: 10px;
 	padding: 10px;
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
 }
 
 .post-meta-data .tags {
@@ -531,7 +531,7 @@ table {
 	font-size: .9em;
 }
 
-#sidebar #archives select {
+#sidebar select {
 	width: 100%;
 }
 
