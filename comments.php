@@ -1,4 +1,4 @@
-<div id="comments">
+<div id="comments" class="hentry">
 	<?php
 
 	// Do not delete these lines
