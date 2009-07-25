@@ -24,7 +24,7 @@
 				</div>
 
 			<?php else: ?>
-				<div class="post">
+				<div class="hentry">
 					<h2 class="post-title">Page Not Found</h2>
 						<br />
 						Sorry, but you are looking for something that isn't here.

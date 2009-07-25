@@ -329,7 +329,7 @@ table {
 	width: 728px;
 }
 
-.post, .page, #comments {
+.hentry, #comments {
 	background: #FFF url(images/post-gradient.gif) repeat-x top left;
 	border: 1px solid #CCC;
 	border-radius: 5px;
