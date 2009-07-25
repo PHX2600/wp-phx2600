@@ -363,9 +363,7 @@ table {
 
 .more-link {
 	background: transparent url(images/icons/bullet_go.png) no-repeat right center;
-	margin-bottom: 1em;
 	padding-right: 20px;
-	float: right;
 }
 
 .post-meta-data {
