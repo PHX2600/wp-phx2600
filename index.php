@@ -3,7 +3,7 @@
 			<?php if (have_posts()): ?>
 				<?php while (have_posts()): the_post(); ?>
 
-					<div id="post-<?php the_ID(); ?>" class="entry">
+					<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 						<h2 class="post-title"><a href="<?php the_permalink(); ?>" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
 						<div class="post-info">Posted by, <?php the_author(); ?> on <?php unset($previousday); printf(__('%1$s at %2$s'), the_date('', '', '', false), get_the_time()) ?></div>
 						<div class="post-content clearfix">
@@ -24,7 +24,7 @@
 				</div>
 
 			<?php else: ?>
-				<div class="entry">
+				<div class="post">
 					<h2 class="post-title">Not Found</h2>
 						<br />
 						Sorry, but you are looking for something that isn't here.
