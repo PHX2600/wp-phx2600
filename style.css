@@ -527,6 +527,8 @@ table {
 	text-align: center;
 }
 
+/* --- GENERAL --- */
+
 #sidebar {
 	font-size: .9em;
 }
@@ -559,11 +561,18 @@ table {
 	-webkit-border-radius: 4px;
 }
 
-#sidebar ul li h2 {
+#sidebar ul li h2, 
+#sidebar ul li .screen-reader-text {
 	color: #FFF;
 	font-size: 1em;
+	font-weight: bold;
 	margin: 0;
 	padding: 2px 3px;
+}
+
+#sidebar ul li h2 a {
+	color: #FFF;
+	text-decoration: none;
 }
 
 #sidebar ul li ul {
@@ -573,12 +582,11 @@ table {
 }
 
 #sidebar ul li ul li {
+	border-top: 1px solid #CCC;
 	font-size: .9em;
 }
 
 #sidebar ul li ul li a {
-	border-top: 1px solid #FFF;
-	border-bottom: 1px solid #CCC;
 	text-decoration: none;
 	display: block;	
 	padding: 1px 5px;
@@ -586,9 +594,74 @@ table {
 
 #sidebar ul li ul li a:hover {
 	background-color: #900000;
-	border-top: 1px solid #900000;
-	border-bottom: 1px solid #900000;
 	color: #FFF;
+}
+
+/* --- SEARCH --- */
+
+#sidebar ul li #s {
+	width: 120px;
+}
+
+#sidebar ul li #searchsubmit {
+	background-color: #707070;
+	border: none;
+	color: #FFF;
+	padding: 1px 3px;
+}
+
+#sidebar ul li #searchsubmit:hover {
+	background-color: #900000;
+	cursor: pointer;
+}
+
+/* --- RSS FEED --- */
+
+#sidebar ul li a.rsswidget {
+	font-size: .85em;
+}
+
+#sidebar ul li h2 a.rsswidget {
+	font-size: 1em !important;
+}
+
+#sidebar ul li h2 .rsswidget img {
+	display: none;
+}
+
+#sidebar ul li ul li .rss-date {
+	display: block;
+	text-align: right;
+}
+
+/* --- TEXT --- */
+
+#sidebar ul li .textwidget {
+	background-color: #FFF;
+	color: #333;
+	font-size: .8em;
+	margin: 0;
+	padding: 5px;
+}
+
+#sidebar ul li .textwidget p {
+	margin: 0;
+}
+
+/* --- RECENT COMMENTS --- */
+
+#sidebar ul li.recentcomments {
+	color: #333;
+	text-decoration: none;
+	font-size: .8em;
+	padding: 1px 5px;
+}
+
+/* --- TAG CLOUD --- */
+
+#sidebar ul li div {
+	background-color: #FFF;
+	padding: 1px 5px;
 }
 
 
