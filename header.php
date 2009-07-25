@@ -68,7 +68,7 @@
 
 			<?php if (is_404()): ?>
 				<div class="notice error">
-					<p>You are currently browsing the archives for the <?php single_cat_title(''); ?> category.</p>
+					<p><strong>ERROR 404:</strong> Page not found</p>
 				</div>
 			<?php endif; ?>
 			<?php if (is_category() || is_day() || is_month() || is_year() || is_search()):	?>

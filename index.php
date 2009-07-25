@@ -25,7 +25,7 @@
 
 			<?php else: ?>
 				<div class="post">
-					<h2 class="post-title">Not Found</h2>
+					<h2 class="post-title">Page Not Found</h2>
 						<br />
 						Sorry, but you are looking for something that isn't here.
 					</div>
