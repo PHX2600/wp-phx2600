@@ -149,7 +149,7 @@ table {
 
 #wrap {
 	margin: 0 auto;
-	padding: 20px;
+	padding: 20px 18px;
 	width: 960px;
 }
 
@@ -425,7 +425,19 @@ table {
 	padding-left: 18px;
 }
 
+.comment-image {
+	background: transparent url(images/comment-arrow.gif) no-repeat 16px bottom;
+	margin-top: 5px;
+	padding-top: 11px;
+}
 
+.comment-body {
+	background-color: #DEDEDE;
+	border-radius: 10px;
+	padding: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
 
 .comment-image-admin {
 	background: transparent url(images/comment-arrow-admin.gif) no-repeat 16px bottom;
@@ -435,19 +447,6 @@ table {
 
 .comment-body-admin {
 	background-color: #FCC;
-	border-radius: 10px;
-	padding: 10px;
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
-}
-.comment-image {
-	background: transparent url(images/comment-arrow.gif) no-repeat 16px bottom;
-	margin-top: 5px;
-	padding-top: 11px;
-}
-
-.comment-body {
-	background-color: #DEDEDE;
 	border-radius: 10px;
 	padding: 10px;
 	-moz-border-radius: 10px;
