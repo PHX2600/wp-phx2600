@@ -25,9 +25,9 @@
 
 			<?php else: ?>
 				<div class="hentry">
-					<h2 class="post-title">Error</h2>
+					<h2 class="post-title">No Results Found</h2>
 						<br />
-						Sorry, but you are looking for something that isn't here.
+						Your search did not turn up any results, please try your search again.
 					</div>
 			<?php endif; ?>
 
