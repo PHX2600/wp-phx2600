@@ -1,6 +1,6 @@
 /*
 Theme Name: PHX2600
-Theme URI: http://www.chriskankiewicz.com/portfolio
+Theme URI: http://www.chriskankiewicz.com
 Description: Wordpress theme for http://www.phx2600.org by <a href="http://www.chriskankiewicz.com">Chris Kankiewicz</a>.
 Version: 2.0
 Author: Chris Kankiewicz
@@ -284,7 +284,7 @@ table {
 	border-right: 1px solid #000;
 }
 
-/* ---[ NOTIFICATIONS ]--- */
+/* --- NOTIFICATIONS --- */
 
 .notice {
 	border-radius: 5px;
@@ -320,7 +320,7 @@ table {
 }
 
 
-/* ---[ CONTENT ] --- */
+/* --- CONTENT --- */
 
 #content {
 	float: left;
@@ -374,19 +374,19 @@ table {
 	-webkit-border-radius: 5px;
 }
 
-.post-meta-data .tags {
+.tags {
 	background: transparent url(images/icons/tag_blue.png) no-repeat left center;
 	font-size: 0.8em;
 	margin: 2px 0 .5em;
 	padding: 0 0 0 20px;
 }
 
-.post-meta-data .category {
+.category {
 	background: transparent url(images/icons/application_view_list.png) no-repeat left center;
 	padding: 0 0 5px 20px;
 }
 
-.post-meta-data .edit a {
+.edit a {
 	background: transparent url(images/icons/page_white_edit.png) no-repeat left center;
 	padding: 0 0 0 20px;
 }
@@ -396,7 +396,7 @@ table {
 	padding: 0 0 5px 20px;
 }
 
-/* ---[ COMMENTS ]--- */
+/* --- COMMENTS --- */
 
 #comments-header {
 	background-color: #FFF;
