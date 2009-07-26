@@ -469,7 +469,7 @@ table {
 }
 
 #meeting-info {
-	background-color: #900000;
+	background: #000 url(images/gradient-bg.jpg) repeat-x left top;
 	border-radius: 5px;
 	color: #FFF;
 	display: block;
@@ -479,10 +479,6 @@ table {
 	text-decoration: none;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
-}
-
-#meeting-info:hover {
-	background-color: #121212;
 }
 
 #meeting-info .title {
@@ -551,7 +547,7 @@ table {
 }
 
 #sidebar > ul > li {
-	background-color: #323232;
+	background: #000 url(images/gradient-bg.jpg) repeat-x left top;
 	border-radius: 4px;
 	margin: 0 0 10px;
 	padding: 0 3px 3px;
@@ -580,7 +576,7 @@ table {
 }
 
 #sidebar ul li ul li {
-	border-top: 1px solid #CCC;
+	border-top: 1px solid #000;
 	font-size: .9em;
 }
 
