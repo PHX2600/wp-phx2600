@@ -8,8 +8,8 @@ Template Name: Archives
 			<div id="entry">
 				<h2>Archives by Month:</h2>
 				<ul>
-					<?php // wp_get_archives('type=monthly'); ?>
-					<?php wp_easyarchives(); ?>
+					<?php wp_get_archives('type=monthly'); ?>
+					<?php // wp_easyarchives(); ?>
 				</ul>
 
 				<h2>Archives by Subject:</h2>
