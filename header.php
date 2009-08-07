@@ -56,13 +56,13 @@
 					<p>Your browser does not support <a href="http://www.w3.org/Consortium/">open standards</a>. Please <a href="http://www.getfirefox.com">upgrade immediately</a> to save the interwebs!</p>
 				</div>
 			<![endif]-->
-			<?php if(time() > (firstFriday() - 432000)): ?>
+			<?php if (date("Ymd",time()) == date("Ymd",firstFriday())): ?>
+				<div class="notice success">
+					<p><strong>Meeting tonight starting at 6pm! See the <a href="meeting-info">Meeting Info page</a> for more info.</strong></p>
+				</div>
+			<?php elseif(time() > (firstFriday() - 432000)): ?>
 				<div class="notice info">
 					<p>Meeting this Friday, <?php echo firstFriday(true); ?>.  Check the <a href="http://www.phx2600.org/forum/viewforum.php?f=2&sid=3eca34d4fcff954c84a2f516fab9a6ee">Meeting Discussion</a> thread for more info.</p>
-				</div>
-			<?php elseif (time() == firstFriday()): ?>
-				<div class="notice info">
-					<p><strong>Meeting tonight starting at 6pm! See the <a href="meeting-info">Meeting Info page</a> for more info.</strong></p>
 				</div>
 			<?php endif; ?>
 
