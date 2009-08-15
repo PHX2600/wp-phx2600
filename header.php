@@ -31,7 +31,6 @@
 		</div>
 		<div id="search">
 			<form action="http://www.phx2600.org/search/" id="cse-search-box">
-
 				<table id="search-table">
 					<tr>
 						<td>
