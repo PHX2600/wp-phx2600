@@ -1,5 +1,9 @@
 <?php get_header(); ?>
 
+	<div id="body" class="clearfix">
+		<div id="content">
+			<?php include(TEMPLATEPATH . '/notifications.php'); ?>
+
 			<?php if (have_posts()): ?>
 				<?php while (have_posts()): the_post(); ?>
 

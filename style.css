@@ -191,9 +191,9 @@ table {
 }
 
 #search input {
-	border: 1px solid #121212;
+	border: 1px solid #121212 !important;
 	font-size: 1.2em;
-	padding: 3px;
+	padding: 3px !important;
 	width: 225px;
 }
 
@@ -285,6 +285,11 @@ table {
 	border-right: 1px solid #000;
 }
 
+#body.search-page {
+	background-color: #FFF;
+	background-image: none !important;
+}
+
 /* --- NOTIFICATIONS --- */
 
 .notice {
@@ -328,6 +333,12 @@ table {
 	margin-right: 190px;
 	padding: 10px;
 	width: 728px;
+}
+
+#content.search-page {
+	float: none;
+	margin: 0;
+	width: auto;
 }
 
 .hentry {
