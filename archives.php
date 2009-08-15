@@ -5,6 +5,10 @@ Template Name: Archives
 ?>
 <?php get_header(); ?>
 
+	<div id="body" class="clearfix">
+		<div id="content">
+			<?php include(TEMPLATEPATH . '/notifications.php'); ?>
+
 			<div class="hentry">
 				<h2 class="post-title">Archive</h2>
 				<h3>Archives by Month:</h3>

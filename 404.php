@@ -1,5 +1,9 @@
 <?php get_header(); ?>
 
+	<div id="body" class="clearfix">
+		<div id="content">
+			<?php include(TEMPLATEPATH . '/notifications.php'); ?>
+
 			<div class="hentry">
 				<h2 class="post-title">Page Not Found</h2><br />
 				<p>Sorry, but you are looking for something that isn't here.</p>
