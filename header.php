@@ -36,7 +36,7 @@
 					<tr>
 						<td>
 							<input type="hidden" name="cx" value="partner-pub-2614997598856289:81nadhhmes4" />
-						    <input type="hidden" name="cof" value="FORID:10" />
+						    <input type="hidden" name="cof" value="FORID:9" />
 						    <input type="hidden" name="ie" value="ISO-8859-1" />
 							<input type="text" name="q" id="search-box" />
 						</td>
@@ -45,15 +45,6 @@
 				</table>
 			</form>
 			<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=cse-search-box&amp;lang=en"></script>
-
-			<!--<form method="get" action="/" id="search-form">
-			<table id="search-table">
-				<tr>
-					<td><input type="text" value="Search" name="s" id="search-box" onfocus="if(this.defaultValue == this.value) this.value = '';" onblur="if(this.value == '') this.value = this.defaultValue;"></input></td>
-					<button type="submit" id="search-button">Go</button>
-				</tr>
-			</table>
-			</form>-->
 		</div>
 	</div>
 
