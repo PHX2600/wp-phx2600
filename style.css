@@ -245,6 +245,7 @@ table {
 	display: inline-block;
 	padding: 4px 10px;
 	text-decoration: none;
+	white-space: nowrap;
 }
 
 #navigation ul li a:hover {
