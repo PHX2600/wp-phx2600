@@ -8,17 +8,7 @@
 			<p>Copyright &copy; 2009 &bull; <a href="<?php echo(bloginfo('url')); ?>" title="<?php bloginfo('name'); ?> - <?php bloginfo('description'); ?>"><?php bloginfo('name'); ?></a> &bull; Some Rights Reserved</p>
 		</div>
 		<div class="right">
-			<p>
-			<!-- GetClicky Analytics -->
-			<a title="Web Analytics" href="http://getclicky.com/123803" class="clicky"><img alt="Web Analytics" src="http://static.getclicky.com/media/links/badge.gif" border="0" class="invisible" /></a>
-			<script type="text/javascript">
-			var domainy = location.protocol == "https:" ? "https://static.getclicky.com" : "http://static.getclicky.com";
-			document.write(unescape("%3Cscript src='" + domainy + "/123803.js' type='text/javascript'%3E%3C/script%3E"));
-			</script>
-			<noscript><p><img alt="Clicky" width="1" height="1" src="http://static.getclicky.com/123803-db16.gif" /></p></noscript>
-			<!-- /GetClicky Analytics -->
-			Powered by, <a href="http://www.wordpress.org">Wordpress</a>
-			</p><br />
+			<p>Powered by, <a href="http://www.wordpress.org">Wordpress</a></p><br />
 			<p><a href="<?php bloginfo('rss2_url'); ?>">Blog (RSS)</a> &bull; <a href="<?php bloginfo('comments_rss2_url'); ?>">Conments (RSS)</a><?php if (file_exists('sitemap.xml')): ?> &bull; <a href="sitemap.xml">Sitemap</a><?php endif; ?></p>
 		</div>
 	</div>
