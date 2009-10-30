@@ -1,6 +1,6 @@
 <!--[if IE]>
 	<div class="notice warning">
-		<p>Your browser does not support <a href="http://www.w3.org/Consortium/">open standards</a>. Please <a href="http://www.getfirefox.com">upgrade immediately</a> to save the interwebs!</p>
+		<p>Your browser does not support <a href="http://www.w3.org/standards/">open standards</a>. Please <a href="http://www.getfirefox.com">upgrade immediately</a> to save the interwebs!</p>
 	</div>
 <![endif]-->
 <?php if (date("Ymd",time()) == date("Ymd",firstFriday())): ?>
