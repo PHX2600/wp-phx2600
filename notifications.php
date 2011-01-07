@@ -3,6 +3,10 @@
 		<p>Your browser does not support <a href="http://www.w3.org/standards/">open standards</a>. Please <a href="http://www.getfirefox.com">upgrade immediately</a> to save the interwebs!</p>
 	</div>
 <![endif]-->
+
+
+<!-- Time: <?php echo time() . ' - ' . date("Ymd",time()); ?> / FF: <?php echo firstFriday() . ' - ' . date("Ymd",firstFriday()); ?> -->
+
 <?php if (date("Ymd",time()) == date("Ymd",firstFriday())): ?>
 	<div class="notice success">
 		<p><strong>Meeting tonight starting at 6pm! See the <a href="meeting-info">Meeting Info page</a> for more info.</strong></p>

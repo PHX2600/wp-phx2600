@@ -11,7 +11,10 @@
 
 
 	function firstFriday($formatted = false) {
-	// firstFriday v0.1.4 by, Chris Kankiewicz (http://www.chriskankiewicz.com)
+	// firstFriday v0.1.5 by, Chris Kankiewicz (http://www.chriskankiewicz.com)
+
+        // Set timezone
+        date_default_timezone_set('America/Phoenix');
 
 		// Calculate next Friday timestamp
 		for ($x = date('d'); $x <= (date('d') + 6); $x++) {

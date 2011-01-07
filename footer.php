@@ -27,7 +27,5 @@
 -->
 
 
-<!-- Time: <?php echo time(); ?> / FF: <?php echo firstFriday(); ?> -->
-
 </body>
 </html>
