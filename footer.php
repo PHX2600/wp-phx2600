@@ -26,5 +26,8 @@
 672e204275742069742069736e27742e22202d53636f7474204164616d73
 -->
 
+
+<!-- Time: <?php echo time(); ?> / FF: <?php echo firstFriday(); ?> -->
+
 </body>
 </html>
