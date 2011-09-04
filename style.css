@@ -729,6 +729,10 @@ table {
   display: none;
 }
 
+ol, ul, dl {
+    margin: 0;
+}
+
 .alignleft {
 	float: left;
 	width: auto;
